@@ -1,0 +1,20 @@
+/* Votre CSS ici (uniquement) */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+
+.footer {
+    position: sticky;
+}
